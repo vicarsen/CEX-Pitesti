@@ -92,10 +92,15 @@ Deoarece ne trebuie atat adunare, cat si inmultire, operatia generala pe actuali
 
 ## Alte probleme cu arbori de intervale
 
- - [Bisortare](https://kilonova.ro/problems/63) (ONI 2021)
- - [Sirbun](https://kilonova.ro/problems/556) (Baraj Seniori 2023)
- - [3dist](https://kilonova.ro/problems/141) (Baraj Seniori 2022)
- - [Perm](https://kilonova.ro/problems/2669) (Baraj Seniori 2024)
+ - [GSS3](https://www.spoj.com/problems/GSS3/) (SPOJ) (usoara)
+ - [Distinct Character Queries](https://codeforces.com/problemset/problem/1234/D) (Codeforces) (usoara)
+ - [Ant colony](https://codeforces.com/contest/474/problem/F) (Codeforces) (medie)
+ - [DZY Loves Fibonacci Numbers](https://codeforces.com/contest/446/problem/C) (Codeforces) (medie)
+ - [Dulciuri](https://kilonova.ro/problems/133) (OJI 2022) (medie)
+ - [Bisortare](https://kilonova.ro/problems/63) (ONI 2021) (grea)
+ - [Sirbun](https://kilonova.ro/problems/556) (Baraj Seniori 2023) (grea)
+ - [3dist](https://kilonova.ro/problems/141) (Baraj Seniori 2022) (grea)
+ - [Perm](https://kilonova.ro/problems/2669) (Baraj Seniori 2024) (grea)
 
 # Resurse extra
 
