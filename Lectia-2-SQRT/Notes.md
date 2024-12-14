@@ -57,7 +57,7 @@ Complexitatea este de $O((N+Q)\sqrt N)$, deoarece:
 
 Observatie: o alegere mai buna pentru marimea bucket-urilor este $S=$, deoarece trebuie minimizata expresia $QS+\frac{N^2}{S}$, avand valoare minima pentru $Q - \frac{N^2}{S^2}=0 \iff S=\frac{N}{\sqrt Q}$, caz in care complexitatea este $O(N \sqrt Q)$. In practica, aceasta abordare este avantajoasa in special atunci cand avem mult mai multe query-uri decat elemente in vector.
 
-Observatie 2: complexitatile de mai sus depind de faptul ca adaugarea/eliminarea unui element se face in $O(1)$. Daca aceasta se face, in schimb, in $O(f(n))$, complexitatea finala va fi $O((N+Q)\sqrt N f(N))$, respectiv $O(N \sqrt Q f(N))$, in functie de marimea aleasa pentru bucket. Nu mai are sens sa derivam expresia de mai sus luand in calcul si pe $f(N)$, deoarece toate operatiile sunt de acelasi tip (adaugare/eliminare).
+Observatie 2: complexitatile de mai sus depind de faptul ca adaugarea/eliminarea unui element se face in $O(1)$. Daca aceasta se face, in schimb, in $O(f(N))$, complexitatea finala va fi $O((N+Q)\sqrt N f(N))$, respectiv $O(N \sqrt Q f(N))$, in functie de marimea aleasa pentru bucket. Nu mai are sens sa derivam expresia de mai sus luand in calcul si pe $f(N)$, deoarece toate operatiile sunt de acelasi tip (adaugare/eliminare).
 
 Intrebari:
  - algoritmul lui Mo pastreaza sau nu amortizarea operatiei de adaugare/eliminare?
