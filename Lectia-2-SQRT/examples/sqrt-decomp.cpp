@@ -60,6 +60,10 @@ int main()
   nb = max(1, (int) sqrt(n));
   bs = n / nb + 1;
 
+  for (int i = 0; i < nb; i++) {
+    update_block(i);
+  }
+
   cin >> m;
   for (int i = 0; i < m; i++) {
     int type, x, y;
