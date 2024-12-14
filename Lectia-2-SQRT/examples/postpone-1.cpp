@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int n, a[NMAX], q, sum[NMAX];
+int n, a[NMAX], q, sum[NMAX + 1];
 
 struct update_t {
   int l, r, x;
@@ -25,13 +25,22 @@ void update(int l, int r, int x)
 {
   upd[m++] = { l, r, x };
   if (m >= step) {
-    for (int k = 0; k < m; k++) {
-      for (int i = upd[k].l; i <= upd[k].r; i++) {
-        a[i] += upd[k].x;
-      }
+    for (int i = 0; i < n; i++) {
+      sum[i] = 0;
     }
-
+    
+    for (int k = 0; k < m; k++) {
+      sum[upd[k].l] += upd[k].x;
+      sum[upd[k].r + 1] -= upd[k].x;
+    }
+    
     m = 0;
+
+    a[0] += sum[0];
+    for (int i = 1; i < n; i++) {
+      sum[i] += sum[i - 1];
+      a[i] += sum[i];
+    }
 
     build();
   }
