@@ -74,6 +74,7 @@ Intrebari:
 
 # Extra
 
+ - [Algoritmul lui Mo fara elimiari](https://codeforces.com/blog/entry/7383#comment-161520) - o adaptare a algoritmului lui Mo care foloseste doar inserari, fara eliminari (adica face treceri doar de la $[l, r]$ la $[l - 1, r]$ sau $[l, r + 1]$)
  - [Algoritmul lui Mo pe arbori](https://codeforces.com/blog/entry/43230) - o metoda de a aplica algoritmul lui Mo asupra unor query-uri pe arbori (mai exact, pe lantul dintre doua noduri date, u si v)
  - [An alternative sorting order for Mo's algorithm](https://codeforces.com/blog/entry/61203) (+ comentariul lui [GreenGrape](https://codeforces.com/blog/entry/61203?#comment-451304)) - un blog de pe Codeforces despre o metoda de sortare pentru algoritmul lui Mo bazata pe curbe Hilbert, ce reduce complexitatea de la $O((N+Q)\sqrt N)$ la $O(N \sqrt Q)$
 
