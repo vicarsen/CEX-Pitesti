@@ -82,8 +82,8 @@ Intrebari:
 
 Implementati una dintre urmatoarele probleme:
 
- - Descompunere in radicali: [XOR and Favorite Number](https://codeforces.com/problemset/problem/617/E) - Codeforces
  - Descompunere in radicali: [kth](https://kilonova.ro/problems/542) - ONI, clasa a VIII-a, 2023
+ - Algoritmul lui Mo: [XOR and Favorite Number](https://codeforces.com/problemset/problem/617/E) - Codeforces
  - Algoritmul lui Mo: [fsecv](https://kilonova.ro/problems/1814) - Lot Juniori 2019
  - Algoritmul lui Mo: [Infinity War](https://kilonova.ro/problems/1837) - RMI 2015
 
